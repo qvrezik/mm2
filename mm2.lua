@@ -75,7 +75,7 @@ local ok, Rayfield = pcall(function()
 	return loadstring(game:HttpGet("https://sirius.menu/gen2"))()
 end)
 if not ok or not Rayfield then
-	warn("[MM2Hub] Rayfield failed to load: " .. tostring(Rayfield))
+	warn("[AeroX] Rayfield failed to load: " .. tostring(Rayfield))
 	return
 end
 
@@ -110,4 +110,3 @@ cfg.cleanup = function()
 end
 
 cfg.installed = true
-print("[MM2Hub] loaded")
